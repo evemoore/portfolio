@@ -1,0 +1,363 @@
+* {
+    font-family: Lora, Georgia, 'Times New Roman', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-width: 1200px;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+/*header styling */
+
+header {
+    background-image: linear-gradient(45deg, hsla(126, 40%, 90%, 1), hsla(126, 40%, 80%, 1), hsla(126, 40%, 90%, 1));
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+    height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: none;
+    z-index: 100;
+}
+
+h1 {
+    align-items: center;
+    background-color: hsla(126, 40%, 80%, 0);
+    padding-left: 200px;
+    margin: 0 0 25px 0;
+}
+
+.hlinks h2 {
+    display: inline;
+    background-color: hsla(126, 40%, 80%, 0);
+    margin: 25px, 50px;
+    padding: 30px;
+    overflow: auto;
+    
+}
+
+#navce {
+    padding-left: 200px;
+}
+
+.hlinks a:link {
+    color: hsla(126, 5%, 12%, 1);
+    text-decoration: none;
+}
+
+.hlinks a:hover {
+    color: hsla(126, 5%, 25%, 1);
+    font-weight: bold;
+}
+
+.hlinks a:visited {
+    color: hsla(126, 5%, 12%, 1);
+    text-decoration: none;
+}
+
+/* Sidebar styling */
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: hsla(126, 40%, 15%, 1);
+    z-index: 1000;
+}
+
+.sidebar img {
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    border-radius: 50%;
+    display: block;
+    padding: 4px;
+    border: 3px solid white;
+}
+
+.sidebar h2 {
+    position: fixed;
+    padding: 0;
+    top: 205px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    color: hsla(125, 24%, 80%, 1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sidebar p {
+    position: fixed;
+    top: 230px;
+    width: 200px;
+    text-align: center;
+    color: hsla(125, 24%, 60%, 1);
+}
+
+.sidebar a {
+    position: fixed;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: hsla(125, 24%, 80%, 0.5);
+}
+
+#llinkedin {
+    bottom: 30px;
+}
+
+#lgithub {
+    bottom: 55px;
+}
+
+#lemail {
+    bottom: 80px;
+}
+
+.sidebar a:hover {
+    color: hsla(125, 24%, 95%, 0.5);
+}
+
+/* main page styling*/
+
+section {
+    background-color: white;
+    background: white;
+    padding-left: 230px;
+    padding-right: 30px;
+    padding-bottom: 30px;    
+}
+
+.codingexperience, .skills, .education, .workexperience h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+section h2 {
+    margin: 0;
+    padding: 30px;
+    scroll-margin-top: 220px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline hsla(126, 40%, 15%, 1) 2px;
+}
+
+
+/* Sections styling*/
+.sectionDivs {
+    padding: 10px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid hsla(126, 40%, 15%, 1);
+}
+
+
+/* Coding experience section*/
+
+.codingExperienceDivs {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 15px 80px 15px;
+    background-color: hsla(126, 40%, 15%, 1);
+    width: 260px;
+    height: 260px;
+    border-radius: 30%;
+    text-align: center;
+}
+
+.codingExperienceHeader {
+    padding: 25px 10px 0 10px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: hsla(125, 24%, 80%, 1);
+}
+
+.codingExperienceP {
+    display: none;
+    margin: 0;
+    padding: 0 10px 10px 20px;
+    font-size: 15px;
+    color: hsla(125, 24%, 60%, 1);
+
+}
+
+.codingExperienceImg {
+    padding: 0 0 20px 0;
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
+    z-index: 1;
+}
+
+/* Projects section */
+
+.swiper {
+    width: 80%;
+    height: 630px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-item, .swiper-slide {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsla(126, 40%, 15%, 1);
+    background-color: hsla(126, 40%, 15%, 0.2);
+    border-radius: 2%;
+    border: 1px solid hsla(126, 40%, 15%, 0.25);
+}
+
+.projectImg {
+    width: 600px;
+    height: 325px;
+    margin-top: 20px;
+    border: 2px solid hsla(126, 40%, 15%, 0.25);
+}
+
+.projectName {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+.projectDescription {
+    font-size: 15px;
+    padding: 0 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.projectFeatures {
+    margin: 10px 10px 25px 10px;
+}
+
+.projectFeatures li {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    padding: 2px;
+    color: hsla(126, 40%, 15%, 1);
+}
+
+.projectLink {
+    padding: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    color: hsla(126, 40%, 15%, 1);
+    background-color: white;
+    border: 1px solid hsla(126, 40%, 15%, 0.3);
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.swiper-wrapper .swiper-button-prev {
+  display: block;
+  color: hsla(126, 40%, 15%, 1);
+  margin-left: 20px;
+}
+
+.swiper-wrapper .swiper-button-next, .swiper-wrapper .swiper-button-prev {
+  display: block;
+  color: hsla(126, 40%, 15%, 1);
+  margin-right: 20px;
+  text-rendering: auto;
+}
+
+.swiper-wrapper .swiper-pagination-bullet {
+  background: hsla(126, 40%, 15%, 1);
+  height: 15px;
+  width: 15px;
+}
+
+/* Skills section */
+
+#ls {
+    margin-bottom: 50px;
+}
+
+#skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skillsDivs {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: hsla(125, 24%, 60%, 1);
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+table, th, td {
+    border: 1.5px solid hsla(126, 40%, 40%, 1);
+    border-collapse: collapse;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table {
+    height: 300px;
+    max-width: 100%;
+    min-width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 10px;
+    max-width: 500px; /* Set your desired max-width */
+    overflow-wrap: normal; /* Allows breaking long words */
+    word-break: normal; /* Ensures text breaks within words if necessary */
+    white-space: normal; /* Allows text to wrap */
+}
+
+th {
+    background-color: hsla(126, 40%, 80%, 1);
+    font-size: 18px;
+}

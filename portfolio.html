@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title> Eve Moore - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="portfolio.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+<body>
+  <header>
+    <h1>Eve Moore</h1>
+    <div class="hlinks">
+      <h2 id="navce"><a href="#lce">Coding Experience</a></h2>
+      <h2><a href="#projectsHeading">Projects</a></h2>
+      <h2><a href="#ls">Skills</a></h2>
+      <h2><a href="#le">Education</a></h2>
+      <h2><a href="#lwe">Work Experience</a></h2>
+    </div>
+  </header>
+  <section>
+    <div class="sidebar">
+      <img src="me.jpg" alt="Picture of me">
+      <h2>About me</h2>
+      <p>Hello! I'm a 26-year-old teaching assistant from Huddersfield, West Yorkshire. I'm a passionate, tech enthusiast hoping to switch careers.</p>
+      <a href="mailto:eveiaim98@outlook.com" id="lemail" target="_blank" rel="noreferrer noopener">email</a>
+      <a href="https://github.com/evemoore" id="lgithub" target="_blank" rel="noreferrer noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/eve-moore-a57833290/" id="llinkedin" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+    </div>
+
+    <div id="codingExperience" class="sectionDivs">
+        <h2 id="lce">Coding Exeperience</h2>
+        <div id="python" class="codingExperienceDivs">
+          <h3 class="codingExperienceHeader">Python</h3>
+          <p class="codingExperienceP">Python was the first coding language I learnt after becoming interested in coding. I completed SoloLearn's Python course, which covered the fundamentals.</p>
+          <img class="codingExperienceImg" src="https://www.pngfind.com/pngs/m/230-2301392_python-vector-head-white-python-logo-png-transparent.png">
+        </div>
+        <div id="SQL" class="codingExperienceDivs">
+          <h3 class="codingExperienceHeader">SQL</h3>
+          <p class="codingExperienceP">In November 2022, I undertook a data and SQL coding kickstarter course ran by Code First Girls. The remote course focused on database management and data analysis and manipulation.</p>
+          <img class="codingExperienceImg" src="https://thumbnail.imgbin.com/13/24/13/imgbin-php-and-mysql-web-development-database-computer-icons-ruby-zc3c8jY1JemBMuQjZGZMzp2fB_t.jpg">
+        </div>
+        <div id="HTML" class="codingExperienceDivs">
+          <h3 class="codingExperienceHeader">HTML & CSS</h3>
+          <p class="codingExperienceP">Codecademy’s HTML and CSS courses taught me about web 
+            development. I completed these courses earlier this year and I have used this knowledge to start creating apps.</p>
+          <img class="codingExperienceImg" src="https://th.bing.com/th/id/R.77863b864046d9bc11669597198093a3?rik=rjlIWSPDdUAREw&pid=ImgRaw&r=0">
+        </div>
+        <div id="JavaScript" class="codingExperienceDivs">
+          <h3 class="codingExperienceHeader">JavaScript</h3>
+          <p class="codingExperienceP">Recently, I completed Code First Girls’ JavaScript Kickstarter. To further solidify the fundamentals, I completed Codecademy’s course. I am currently doing their JavaScript 
+            Intermediate modules.</p>
+          <img class="codingExperienceImg" src="https://th.bing.com/th/id/OIP.QeGQ6ZxsGU1hMhsX9gEagQHaHa?rs=1&pid=ImgDetMain">
+        </div>
+        <hr>
+    </div>
+    
+
+    <div id="projects" class="sectionDivs">
+      <h2 id="projectsHeading">Projects</h2>
+
+       <div class="slider-wrapper swiper">
+         <div class="card-list swiper-wrapper">
+           <div class="card-item swiper-slide">
+             <img src="shop.jpg" alt="Screenshot of shop preview" class="projectImg">
+             <h4 class="projectname">Shop website</h4>
+             <p class="projectDescription">This was a group project created for a JavaScript Kickstarter course ran by Code First Girls. We received an award 
+               for this project and were certified as highly commended candidates.<br><br>Features:</p>
+             <ul class="projectFeatures">
+               <li>Newsletter subscription, taking input from user</li>
+               <li>Add to basket function where the basket is displayed and the total calculated during a mouseover event</li>
+               <li>Load more items function</li>
+             </ul>
+             <a href="https://codepen.io/evelois/pen/ZEdLaOg" class="projectLink" target="_blank" rel="noreferrer noopener">View on codepen</a>
+           </div>
+ 
+           <div class="card-item swiper-slide">
+             <img src="calculator.jpg" alt="Screenshot of calculator preview" class="projectImg">
+             <h4 class="projectname">Calculator</h4>
+             <p class="projectDescription">A basic calculator app I created following a YouTube tutorial.<br><br>Features:</p>
+             <ul class="projectFeatures">
+               <li>Basic maths functions; add, subtract, multiply and divide</li>
+               <li>Clear display function</li>
+               <li>Displays error when trying to calculate an incorrect sum</li>
+             </ul>
+             <a href="https://github.com/evemoore/Basic-calculator-app" class="projectLink" target="_blank" rel="noreferrer noopener">View on GitHub</a>
+           </div>
+ 
+           <div class="card-item swiper-slide">
+             <img src="quiz.jpg" alt="Screenshot of shop preview" class="projectImg">
+             <h4 class="projectname">Stardew Valley Quiz</h4>
+             <p class="projectDescription">A fun, buzzfeed-style quiz to determine which Stardew Valley character you are.<br><br>Features:</p>
+             <ul class="projectFeatures">
+               <li>Function to add an amount to your score based on your answer</li>
+               <li>Time delay before loading next question for aesthetic transition</li>
+             </ul>
+             <a href="https://codepen.io/evelois/pen/xxobwzO" class="projectLink" target="_blank" rel="noreferrer noopener">View on codepen</a>
+           </div>
+           
+           <div class="swiper-pagination"></div>
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+         </div>
+       </div>
+      <hr>
+    </div>
+
+    <div id="skills" class="sectionDivs">
+      <h2 id="ls">Skills and Qualities</h2>
+      <div id="skillsContainer">
+        <div id="skillOne" class="skillsDivs">Communication</div>
+        <div id="skillTwo" class="skillsDivs">Problem-solving</div>
+        <div id="skillThree" class="skillsDivs">Teamwork</div>
+        <div id="skillFour" class="skillsDivs">Analytical</div>
+        <div id="skillFive" class="skillsDivs">Interpersonal</div>
+        <div id="skillSix" class="skillsDivs">Flexible</div>
+      </div>
+      <hr>
+    </div>
+
+    <div id="education" class="sectionDivs">
+      <h2 id="le">Education</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Date</th>
+              <th>Qualification</th>
+              <th>Subjects and Grades</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Greenhead College</td>
+              <td>September 2014 - June 2016</td>
+              <td>A-Levels</td>
+              <td>Mathematics A, Geology B, Chemistry D</td>
+            </tr>
+            <tr>
+              <td>Holmfirth High School</td>
+              <td>September 2009 - June 2014</td>
+              <td>GCSEs</td>
+              <td>8 GCSEs at A* - C, including Mathematics A and English Language B</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr>
+    </div>
+
+    <div id="workExperience" class="sectionDivs">
+      <h2 id="lwe">Work Experience</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Place</th>
+            <th>Date</th>
+            <th>Role</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Honley Junior, Infant and Nursery School</td>
+            <td>September 2021 - present</td>
+            <td>Teaching assistant</td>
+            <td>My main responsibilities include patiently caring for neurodivergent 
+              children and collaborating with other staff members to implement the best 
+              care methods. Despite strong teamwork being a vital part of my role, 
+              using my initiative is essential as I plan lessons to deliver to a small group 
+              of children. Every day presents a different challenge but being flexible 
+              and adaptable allows me to approach any situation and I enjoy this 
+              aspect of the role. </td>
+          </tr>
+          <tr>
+            <td>Bargain Booze</td>
+            <td>June 2018 - August 2020</td>
+            <td>Retail assistant</td>
+            <td>Providing excellent customer service – politely interacting with customers, answering any queries and giving advice when asked.
+              Working as a team to unload large deliveries efficiently using equipment where appropriate, and then quickly restocking shelves. Checking that the stock ordered was actually delivered and marking any discrepancies.
+              Often lone working where my responsibilities included handling transactions on the till, managing inventory and closing/opening up duties.
+              </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
